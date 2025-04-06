@@ -1,0 +1,6 @@
+Documentation of test
+-> the idea here is to create a boring extension first and write down useful commands and steps
+-> currently just following the chrome website how to create
+-> https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
+
+- created a manifest file, im assuming it tells chrome what to open 
