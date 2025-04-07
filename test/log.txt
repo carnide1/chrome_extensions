@@ -4,3 +4,19 @@ Documentation of test
 -> https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
 
 - created a manifest file, im assuming it tells chrome what to open 
+
+{
+    "name": "Hello Extensions",                     <- name of the extension
+    "description": "Base Level Extension",          <- text that describes the extension on google chrome
+    "version": "1.0",                               <- tracks your extension’s version, increment it when making updates
+    "manifest_version": 3,                          <- just eh manifest version, important for chrome
+    "action": {                                     <- what gets executed im assuming
+      "default_popup": "hello.html",                <- this is the code that runs when you do the extension, it just prints it out i guess
+      "default_icon": "hello_extensions.png"        <- this is the image when you pin it, the icon for the extension
+    }
+}
+
+-> the very basics of this extension is that the json file seems to be the point of access for the extension, and then it 
+    directs google to the relevant files to the extension. 
+
+-> you can reference js files as well, probably to create new funcitonality
